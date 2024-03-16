@@ -21,7 +21,6 @@ class list extends StatefulWidget {
 }
 class todolist extends State{
 final controller=TextEditingController();
-final List <data> hh=[data(tno: '1',t: 'hi',done: false)];
 List<data> todo=data.todo();
 List<data> found=[];
 @override
